@@ -9,9 +9,9 @@ ActiveRecord::Base.logger = Logger.new(STDOUT)
 puts 'Establishing connection to database ...'
 ActiveRecord::Base.establish_connection(
   adapter: 'postgresql',
-  database: 'ar_exercises',
-  username: 'development',
-  password: 'development',
+  database: 'lighthouse',
+  username: 'cyehia',
+  password: '',
   host: 'localhost',
   port: 5432,
   pool: 5,
